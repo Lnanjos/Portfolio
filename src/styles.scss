@@ -1,3 +1,8 @@
 body{
-  background-color: gainsboro;
+  background-attachment: fixed;
+  background-image: url(/assets/img/background.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-color: turquoise;
+  background-size: 35rem auto;
 }
