@@ -6,11 +6,24 @@
     min-height: min-content;
     padding-top: 6rem;
     padding-right: 2rem;
-    padding-left: 2rem;
+    padding-left: 2rem;  
   }
   
   img{
     max-width: 150px;
   }
-  
+
+  @media only screen and (max-width: 992px){
+    img{
+      max-width: 100px;
+    }
+    .p-grid{
+      max-height: max-content;
+      min-height: min-content;
+      padding-top: 1rem;
+      padding-right: 2rem;
+      padding-left: 2rem;  
+    }
+  }
+
 }
