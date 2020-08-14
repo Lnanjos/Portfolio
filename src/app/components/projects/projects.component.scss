@@ -1,0 +1,31 @@
+.p-grid{
+  margin: 0;
+
+  .p-grid{
+    max-height: max-content;
+    min-height: min-content;
+  }
+
+  img{
+    max-width: 150px;
+  }
+}
+
+.button {
+  font-family: Recursive;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 6rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--primarycolor); 
+  &:hover {
+    background-color:var(--primaryColorDark);
+  } 
+}

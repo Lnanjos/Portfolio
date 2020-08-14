@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --primarycolor:#40e0d0;
+  --primaryColorDark: #008080;  
 }
 
 body{
@@ -10,6 +16,36 @@ body{
   background-image: url(/assets/img/background.png);
   background-repeat: no-repeat;
   background-position: bottom left;
-  background-color: turquoise;
+  background-color: var(--primarycolor);
   background-size: 35rem auto;  
+}
+
+p{
+  line-height: 20pt;
+  font-size: 14pt;
+  padding-left: 6rem;
+  padding-right: 4rem;
+  font-family: Roboto;
+  text-align: justify;
+}
+
+h2{
+  font-size: 24pt;
+  text-align: end;
+  padding-right: 6rem;
+}
+
+.p-grid{
+  margin: 0;
+  max-height: 100vh;
+  min-height: 100vh;
+
+  .bg-light{
+    padding-top: 6rem;
+    background-color: whitesmoke;
+  }
+  .p-col{
+    padding-top: 6rem;
+    text-align: center;
+  }
 }
