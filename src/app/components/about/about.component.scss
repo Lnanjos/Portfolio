@@ -1,0 +1,42 @@
+.p-grid{
+  margin: 0;
+  max-height: 100vh;
+  min-height: 100vh;
+
+  .p-grid{
+    max-height: max-content;
+    min-height: min-content;
+    padding-top: 6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .p-col{
+    padding-top: 6rem;
+    text-align: center;
+  }
+  
+  .bg-light{
+    padding-top: 6rem;
+    background-color: whitesmoke;
+  }
+  
+  h2{
+    font-size: 24pt;
+    text-align: end;
+    padding-right: 6rem;
+  }
+
+  p{
+    line-height: 20pt;
+    font-size: 14pt;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-family: Roboto;
+    text-align: justify;
+  }
+
+  img{
+    max-width: 150px;
+  }
+}
