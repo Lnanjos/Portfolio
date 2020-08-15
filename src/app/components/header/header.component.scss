@@ -13,12 +13,21 @@
     text-align: end;
   
     h1{
+      color: transparent;
       font-weight: 700;
       font-size: 2.5em;
+      animation: start 2s ease-out forwards;
     }
     
     h3{
+      margin: 1rem 0;
+      color: transparent;
+      animation: start 2s ease-out forwards;
       font-weight: 400;
+    }
+    i{
+      color: transparent;
+      animation: start 2s ease-out forwards;
     }
   }
 
@@ -31,5 +40,18 @@
       text-align: start;
       padding: 30% 2rem;
     }
+  }
+}
+
+@keyframes start{
+  from{color: transparent; padding-top: 5rem;}
+  to{color: black; padding-top: 0rem;}
+}
+
+@keyframes startback{
+  from{background: transparent;background-size: cover;}
+  to{
+    background: url(/assets/img/pixel.jpg);
+    background-size: cover;
   }
 }

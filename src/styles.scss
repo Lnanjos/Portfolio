@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root{
   min-width: 360px;
   --primarycolor:#40e0d0;
@@ -19,6 +23,12 @@ body{
   background-position: bottom left;
   background-color: var(--primarycolor);
   background-size: 35rem auto;  
+  animation: backgroundstart 3s ease-out;
+}
+
+@keyframes backgroundstart{
+  from {background-color: whitesmoke}
+  to {background-color: var(--primarycolor);}
 }
 
 p{
@@ -63,4 +73,10 @@ h2{
       text-align: start;
     }
   }
+}
+
+i{
+  color: black;
+  padding: 1rem;
+  font-size: 28pt;
 }
