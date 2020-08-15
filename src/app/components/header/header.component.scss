@@ -34,11 +34,17 @@
   @media only screen and (max-width: 992px){
     .bg-dark{
       padding: 0;
-      background:0;
+      background: 0;
     }
     .title{
       text-align: start;
       padding: 30% 2rem;
+    }
+  }
+  @media only screen and (max-width: 576px){
+    .title{
+      text-align: start;
+      padding: 40% 1rem;
     }
   }
 }

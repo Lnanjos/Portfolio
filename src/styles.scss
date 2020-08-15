@@ -73,6 +73,22 @@ h2{
       text-align: start;
     }
   }
+  @media only screen and (max-width: 576px){
+    .p-col-12{
+      padding-top: 2rem;
+    }
+    p{
+      line-height: 20pt;
+      font-size: 14pt;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    } 
+    
+    h2{
+      padding-left: 2rem;
+      text-align: start;
+    }
+  }
 }
 
 i{
